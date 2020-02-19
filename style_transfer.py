@@ -176,6 +176,7 @@ def run_training(input_img):
         optimizer.step(closure)
     return input_img.data.clamp_(0, 1)
 
+
 run_training(input_img)
 
 plt.figure()
